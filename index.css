@@ -1,0 +1,24 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+}
+html {
+  width: 100%;
+  height: 100%;
+}
+.gameWrapper {
+  background-color: grey;
+  z-index: -1;
+}
+.player {
+  background-color: orange;
+  position: relative;
+  z-index: 1;
+}
+.apple {
+  background-color: red;
+  position: relative;
+}
